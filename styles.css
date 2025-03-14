@@ -20,6 +20,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    margin-top: 30px;
 }
 
 .navbar {
@@ -62,3 +63,23 @@ footer {
     display: block; /* Garante que a imagem ou elemento seja tratado como bloco */
 }
 
+.container-background{
+    background-color: #E9E7D2; /* Cor verde escura baseada na imagem */
+    border-radius: 20px; /* Bordas arredondadas para o efeito de quadrado */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    margin: 20px auto; /* Centraliza o container e adiciona margem */
+    max-width: 800px; /* Largura máxima para simular o tamanho do container na imagem */
+    height: 1000px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar */
+}
+
+.h1{
+    font-size: xx-large;
+}
+
+.menu-icon{
+    color: #b7e0a5;
+    size: 10000px;
+}
