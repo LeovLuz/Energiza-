@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #406446;
+}
+
+header {
+    background-color: #E9E7D2;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #E9E7D2;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    background-color: #b7e0a5;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.logo-container {
+    flex-grow: 1; /* Faz o container da logo ocupar espaço e centralizar */
+    display: flex;
+    justify-content: left; /* Centraliza a logo */
+    margin-left: 250px;
+}
+
+.logo {
+    height: 50px; /* Ajuste conforme necessário */
+    display: block; /* Garante que a imagem ou elemento seja tratado como bloco */
+}
+
